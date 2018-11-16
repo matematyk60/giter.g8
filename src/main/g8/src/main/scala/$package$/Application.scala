@@ -30,10 +30,10 @@ class Application(configuration: Configuration)(implicit clock: Clock) extends S
         .build()
         .start()
 
-      logger.info(s"Service started on port: ${apiConfig.port}")
+      logger.info(s"Service started on port: \${apiConfig.port}")
     } catch {
       case ex: Throwable =>
-        logger.error(s"Error encountered while binding to port ${apiConfig.port}", ex)
+        logger.error(s"Error encountered while binding to port \${apiConfig.port}", ex)
     }
 
   def stop(): Unit = {
