@@ -6,5 +6,6 @@ class $name;format="Camel"$Test extends EndpointSpec {
 
   "Test" should {
     "pass" in {
+    }
   }
 }
