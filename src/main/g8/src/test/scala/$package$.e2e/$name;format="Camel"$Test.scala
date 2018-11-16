@@ -4,6 +4,7 @@ import $package$.e2e.spec.EndpointSpec
 
 class $name;format="Camel"$Test extends EndpointSpec {
 
-  "Test" should "pass" in {
+  "Test" should {
+    "pass" in {
   }
 }
