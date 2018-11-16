@@ -1,0 +1,3 @@
+[submodule "pel-proto-files"]
+	path = pel-proto-files
+	url = git@bitbucket.org:codeheroes_/pel-proto-files.git
